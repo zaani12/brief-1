@@ -1,0 +1,301 @@
+*{
+    font-family:'Poppins', sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+hr{
+    width: 60px;
+    border: 5.4px solid orangered;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+#home{
+    font-size: 150px;
+}
+#home{
+    display: flex;
+    }
+    .allh2{
+        font-size: 70px;
+        color: orangered;
+    }
+/* ====================> title<=========== */
+#nav{
+    background-color: orangered;
+    left: 0;
+    top: 0;
+    position: sticky;
+    width: 300px;
+    height: 950px;
+}
+nav ul li:hover{
+    background-color: #FFFFFF;
+    transition-duration: 0.5s;
+}
+.container{
+    display: flex;
+}
+#copanynam{
+    font-size: 30px;
+    color: #f1f1f1;
+    margin-top: 0%;
+    padding-top: 20%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 500px;
+    padding: 8px 16px;
+}
+a:hover{
+    color: #0a0a0a;
+    transition-duration: 0.5s;
+}
+#navelements{
+    list-style: none;
+}
+.element{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+/* =========================> nav bar <=====================*/
+.content{
+    display: flexbox;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.sections{    
+    margin: 50px,50px;
+
+}
+.Showcase2{
+    width: 700px;
+    height: 650px;
+    display: inline-flexbox;
+}
+.Showcase3{
+    width: 700px;
+    height: 350px;
+    display: inline-flexbox;
+  
+}
+.Showcase4{
+    width: 700px;
+    height: 350px;
+    display: inline-flexbox;
+}/*==================================> Showcase<===============*/
+.paragraphs{
+    font-style: unset;
+    padding-right: 10%;
+    font-size: x-large;
+}
+/*==================================> paragraphs<===============*/
+.designeteem{
+    display: flex;
+    padding-right: 5%;
+}
+.johndoe{
+    background-color: #f1f1f1;
+    filter: grayscale(80%);
+}
+.designersbio :not(last child){
+    margin-right: 10px;
+}
+.nam{
+    font-size: 25PX;
+    padding-top: 0px;
+}
+.job{
+    font-size: 20px;
+    color: gray ;
+}
+.boi{
+    font-size: 20px;
+}
+#imgdesignr{
+    padding-right: 5%;
+}
+/*============================> desaginers <=========================*/
+input{
+    width: 100%;
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+}
+.form-control{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 0px;
+    resize: vertical 
+}
+.btn-btn-primary{
+    color: white;
+    font-size: 30px;
+    background-color: rgb(228, 75, 4);
+    width: 100%;
+    height: 50px;
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 0px;
+    resize: vertical 
+}
+.btn-btn-primary:hover{
+    background-color: #b4abab;
+    transition-duration: 0.1s;
+}
+/*============================>contact bar<========================*/
+.row-padding{
+    display: flex;
+    max-width: 500px;
+    box-sizing: inherit;
+    width: 500px;
+    margin-left: 30%;
+    
+
+}
+.half{
+    list-style: none;
+    margin-left: 3%;
+    
+
+}
+.ul{
+    padding: 0;
+    margin: 0;
+    background-color: #f1f1f1;
+    list-style-type:none
+    
+}
+.dark-grey{
+    color: #fff;
+    background-color: #616161;
+}
+.padding-16{
+    padding-top: 16px!;
+    padding-bottom: 16px!;
+}
+.boton-size{
+    background-color: #f1f1f1;
+}
+.botton{
+    border: none;
+    padding: 8px 16px;
+    color: inherit;
+    background-color: white;
+    font: inherit;
+}
+.boton-size2{
+    background-color: #f1f1f1;
+}
+.button2{
+    border: none;
+    padding: 8px 16px;
+    color: inherit;
+    background-color: orangered;
+    font: inherit;
+    border: none;
+    padding-bottom: 10px;
+}
+.pro{
+    color: #fff;
+    background-color: orangered;
+}
+.padding-16{
+    padding: 16px;
+}
+/*===============================>table<===================*/
+#table{
+    display: flex;
+    gap: 15px;
+}
+table{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 120px;
+    font-family: 'Poppins', sans-serif;
+}
+#basic td{
+    border-bottom:solid 1px  rgba(128, 128, 128, 0.119) ;
+    text-align: center;
+}
+#basic th{
+    font-size: x-large;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #717171;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#basic button{
+    background-color: white;
+    color: black;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#basic button:hover{
+    background-color: #717171;
+    color: #ffffff;
+}
+#pro th{
+    font-size: x-large;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #fd0303;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#pro  td{
+    border-bottom:solid 1px rgba(128, 128, 128, 0.119);
+    text-align: center;
+}
+#pro button{
+    background-color: rgb(209, 25, 25);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#pro button:hover{
+    background-color: #717171;
+}
+.price{
+    font-size: xx-large;
+}
+.object{
+    color: #808080;
+}
+.data{
+    height: 8em;
+}
+/* footr*/
+i{
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px;
+    margin-right: 150px;
+}
