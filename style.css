@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@200&display=swap');
+body{
+    background: linear-gradient( #3aa5a4 , #7ae5e4);
+}
+/*div here*/
+.div1,.div2,.div3,.div4,.div6,.socialmedia{
+    background-color: white;
+    border-radius: 3px;
+    height: auto;
+    width: auto;
+    margin-left: 2%;
+    margin-right: 5%;
+    align-content: center;
+    padding: 40px;
+    overflow: hidden;
+}
+/*box here*/
+.box{
+    box-sizing: border-box;
+    position: static;
+    align-items: center; 
+    display: block;
+    margin:  auto;
+    float: left;
+} 
+div img{
+    margin-right: 55px;
+    float: left;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+h4{
+    text-align: center;
+    color: aliceblue;
+}    
+/*back-background here */
+.background{
+    background-image: url(img/img-01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    height: 900px;
+    opacity: 20%;
+    z-index: -5;
+}
+/* header here*/
+header{
+    height: 80px;
+    padding: 80PX;
+}
+.title img{
+    float:left;
+    width:220px;
+    height:100px;
+    margin:0px 5px 5px;
+    position:relative;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 15px;
+    margin: 20px;
+}
+.lang{
+    float: left;
+    margin-right: 200px;
+}
+.educ{
+    float: left;
+    width: 33%;
+    
+    margin: 15px;
+    width: 33%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+.grey-text{ 
+    color: grey;
+}    
+.ICON{ 
+    height: 35px;
+    width: 35px;
+    margin: 0%;
+    margin-left: 20px;
+}
+.icons{
+    float: left;
+    position: relative;
+}
+    
+.user{
+    list-style: none;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    width: 5%;
+    padding: 8px;
+    margin-left: 0%;
+    margin-right: 55px;
+}
+/*textarea here*/
+.textarea{
+    background-color: rgb(216, 204, 204);
+    margin: 5px;
+    border: none;
+    height: 100px;
+    width: 98%;
+    border-radius: 3%;
+}
+ .input{
+    background-color: rgb(210, 202, 202);
+    margin: 5px;
+    border: none;
+    height: 30px;
+    width: 98%;
+    border-radius: 3%;
+}
+ /*button here*/
+.button{
+    background-color: black;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px; 
+}
+.send-msg{
+    color: aliceblue;
+}
+footer{
+    text-align: center;
+    font-size: 13px;
+    margin: 50px;
+    color:white;
+}
+h1,h3,h2,h4,h5{
+    font-family: 'Oswald', sans-serif;
+}
+p,span{
+    font-family: 'lato',sans-serif;
+}
