@@ -20,7 +20,7 @@ include 'handlers/login_handler.php';
     <title>Wellcome to Ocean</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/register.css">
+    <link rel="stylesheet" href="assets/signup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <style>
         .alert{
@@ -28,7 +28,7 @@ include 'handlers/login_handler.php';
             margin: auto;
         }
         .pswd_icon_bg{
-            background: white;
+            /* background: white; */
             height: 32px;
             width: 30px;
             position: absolute;
@@ -49,8 +49,8 @@ include 'handlers/login_handler.php';
 <body>
    
     <div class="top-content">
-        <h1 style="font-size:35px;">Wellcome to Ocean, share your moments with friends!</h1>
-        <p>Sign up and start sharing your photos and updates with your friends.
+        <h1 style="font-size:35px;">Wellcome to SweetConnect the perfect place yo  Share your love of pastry with the world. !</h1>
+        <p>Sign up and start sharing  your love of pastry with the world.
         </p>
         <hr style="width: 50%; color: white; margin-bottom:25px; margin-top:25px;">
     </div>
@@ -79,6 +79,13 @@ include 'handlers/login_handler.php';
 
                     <?php if(in_array("Email or Password was incorrect", $error_array_login)) echo "<p class='alert'>Email or Password was incorrect</p>"; ?>
                     <button type="submit" style="margin-bottom:20px" name="login_button">Sign in!</button>
+                    <!-- <button class="loginBtn loginBtn--facebook">
+  Login with Facebook
+</button>
+
+<button class="loginBtn loginBtn--google">
+  Login with Google
+</button> -->
                 </form>     
             </div>
         </div>
@@ -185,22 +192,29 @@ include 'handlers/login_handler.php';
                     
 
                     <!-- Submit Button -->
-                    <button type="submit"  style="margin-bottom:20px" name="reg_user" >Sign me up!</button>         
+                    <button type="submit"  style="margin-bottom:20px" name="reg_user" >Sign me up!</button>   
+                    <!-- <button class="loginBtn loginBtn--facebook">
+  Login with Facebook
+</button>
+
+<button class="loginBtn loginBtn--google">
+  Login with Google
+</button>       -->
                     
                 </form>
             </div>
         </div>
-    </div>
-
-    <hr style="color:white; margin-top:265px; width:40%;">
-
-    <!-- Footer -->
+            <!-- Footer -->
     <footer>			
     	<div class="footer"> 
             <a style="text-decoration-line: none; color: #977AFF;" href="admin.php"><i class="fas fa-user-shield"></i> Admin? click here <i class="fas fa-arrow-right"></i></a>
-    		<p> ©2020 All Rights Reserved <BR> Website designed and developed by <strong><U>Sindhiya Mahesh</u></strong></p>
     	</div>
     </footer>
+    </div>
+
+    <!-- <hr style="color:white; margin-top:265px; width:40%;"> -->
+
+
 
     <script>
         function log_pswd_toggale() {

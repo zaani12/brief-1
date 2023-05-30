@@ -155,29 +155,37 @@
                         
                         
                         $ret_str .= "
+                        <div class='post-wrapper' style='display: flex; justify-content: center; width: 100%;'>
+                        <div class='post-container' style='background-color: white; border: 2px solid black; border-radius: 40px; width: 400px; padding: 10px; margin-bottom: 20px;'>
                             <div class='status_post'>                     
                                 <div class='post_profile_pic'>
-                                    <img src='$profile_pic' width='50'> 
+                                    <img src='$profile_pic' width='100%'> 
                                 </div>  
                                 <div class='posted_by' style='color:#ACACAC;'> 
                                     <a href='$added_by'> $first_name $last_name </a> <br> 
                                     <div class='time'> $time_message </div> 
                                 </div> <br> <br> 
                                 <div class='post_body' id='post_body'> 
-                                <span style='margin-left: 34px;'> $body </span> <br> <br> <img src='$imagePath'> <br> 
+                                    <span style='margin-left: 34px;'> $body </span> <br> <br> <img src='$imagePath' style='max-width: 200px;'> <br> 
                                 </div> 
                             </div>
-                            <div calss='post_feature'>
-                                <div class='comImg_comCount' style='display: flex; float: right; margin: 0 40px;'>
-                                    <span class='comment' onClick='javascript:toggle$id()'><img src='assets/images/comment.png' height='30px'></span> 
+                            <div class='post_feature'>
+                                <div class='comImg_comCount' style='display: flex; float: right; margin: 0 20px;'>
+                                    <span class='comment' onClick='javascript:toggle$id()'><img src='assets/images/comment.png' height='20px'></span> 
                                     <span style='margin: 5px 5px;'>($comment_check_num)</span>&nbsp;&nbsp;
                                 </div>
-                                <iframe src='like.php?post_id=$id'style='border: 0px; height: 25px; width: 120px; margin-left: 35px;' scrolling='no'></iframe>
+                                <iframe src='like.php?post_id=$id' style='border: 0px; height: 20px; width: 80px; margin-left: 25px;' scrolling='no'></iframe>
                             </div>
                             <div class='post_comment' id='toggleComment$id' style='display:none;'>
                                 <iframe src='comment_frame.php?post_id=$id' id='comment_iframe' frameborder='0' style='display: flex; width: 100%; border-radius: 5px;'></iframe>                                    
                             </div>
-                            <hr style='margin-bottom: 28px;'> ";
+                            <hr style='margin-bottom: 10px;'>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    ";
                     // }//end if              
                 }//end of loop
                 

@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="assets/register.css">
     <link rel="stylesheet" href="assets/fontawesome-free-5.15.1-web/css/all.css">
     <link rel="shortcut icon" href="images/favigon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/signup.css">
     <title>Welcome Admin</title>
 
     <style>
